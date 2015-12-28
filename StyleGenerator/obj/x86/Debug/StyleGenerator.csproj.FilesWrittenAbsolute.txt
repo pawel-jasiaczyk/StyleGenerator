@@ -1,0 +1,9 @@
+/home/pawel/Projects/StyleGenerator/StyleGenerator/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/pawel/Projects/StyleGenerator/StyleGenerator/bin/Debug/StyleGenerator.exe.mdb
+/home/pawel/Projects/StyleGenerator/StyleGenerator/bin/Debug/StyleGenerator.exe
+/home/pawel/Projects/StyleGenerator/StyleGenerator/obj/x86/Debug/StyleGenerator.exe
+/home/pawel/Projects/StyleGenerator/StyleGenerator/obj/x86/Debug/StyleGenerator.exe.mdb
+/home/pawel/Projects/StyleGenerator/StyleGenerator/bin/Debug/BibTeX.dll
+/home/pawel/Projects/StyleGenerator/StyleGenerator/bin/Debug/BibManFunctionality.dll
+/home/pawel/Projects/StyleGenerator/StyleGenerator/bin/Debug/BibToHtml.dll
+/home/pawel/Projects/StyleGenerator/StyleGenerator/bin/Debug/BibTeXtoHTML_Win.exe

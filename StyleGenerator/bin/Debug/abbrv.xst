@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BibTeXtoHTML_Style xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HtmlExporterStyle Name="abbrv">
+    <PositionStyles />
+    <SortOrder>
+      <PositionSortObject PositionSort="BySelectedFieldAsc">
+        <TextList>
+          <string>author</string>
+        </TextList>
+      </PositionSortObject>
+    </SortOrder>
+    <DefaultPositionStyle PositionStyleType="global" UseIt="true">
+      <PositionTypes />
+      <PositionNames />
+      <DefaultFieldStyle UseIt="false">
+        <Tags />
+      </DefaultFieldStyle>
+      <FieldStyles />
+      <FieldSortObjects>
+        <FieldSortObject FieldSort="ByPositionedFieldStyle">
+          <TextList />
+          <PositionedFieldStyles>
+            <PositionedFieldStyle>
+              <FieldsOnPosition>
+                <string>author</string>
+                <string>edithor</string>
+              </FieldsOnPosition>
+              <StyleForThisFieldPosition UseIt="true">
+                <Tags>
+                  <SupportedHtmlTags>b</SupportedHtmlTags>
+                </Tags>
+              </StyleForThisFieldPosition>
+            </PositionedFieldStyle>
+            <PositionedFieldStyle>
+              <FieldsOnPosition>
+                <string>title</string>
+              </FieldsOnPosition>
+              <StyleForThisFieldPosition UseIt="true">
+                <Tags>
+                  <SupportedHtmlTags>i</SupportedHtmlTags>
+                </Tags>
+              </StyleForThisFieldPosition>
+            </PositionedFieldStyle>
+            <PositionedFieldStyle>
+              <FieldsOnPosition>
+                <string>journal</string>
+                <string>booktitle</string>
+              </FieldsOnPosition>
+              <StyleForThisFieldPosition UseIt="true">
+                <Tags />
+              </StyleForThisFieldPosition>
+            </PositionedFieldStyle>
+            <PositionedFieldStyle>
+              <FieldsOnPosition>
+                <string>publisher</string>
+              </FieldsOnPosition>
+              <StyleForThisFieldPosition UseIt="true">
+                <Tags />
+              </StyleForThisFieldPosition>
+            </PositionedFieldStyle>
+            <PositionedFieldStyle>
+              <FieldsOnPosition>
+                <string>month</string>
+              </FieldsOnPosition>
+              <StyleForThisFieldPosition UseIt="true">
+                <Tags />
+              </StyleForThisFieldPosition>
+            </PositionedFieldStyle>
+            <PositionedFieldStyle>
+              <FieldsOnPosition>
+                <string>year</string>
+                <string>date</string>
+              </FieldsOnPosition>
+              <StyleForThisFieldPosition UseIt="true">
+                <Tags />
+              </StyleForThisFieldPosition>
+            </PositionedFieldStyle>
+          </PositionedFieldStyles>
+        </FieldSortObject>
+      </FieldSortObjects>
+    </DefaultPositionStyle>
+  </HtmlExporterStyle>
+  <BibTeXTranslator>
+    <LaTeXFunctions>
+      <LaTeXFunction>
+        <Name>k</Name>
+        <NonContentFormat>false</NonContentFormat>
+        <ContentFormat>true</ContentFormat>
+        <NonContentFormatString>\{0}</NonContentFormatString>
+        <DefaultContentFormatString>\{0}{{{1}}}</DefaultContentFormatString>
+        <SerializedDictionary>a,ą|A,Ą|e,ę|E,Ę</SerializedDictionary>
+      </LaTeXFunction>
+      <LaTeXFunction>
+        <Name>.</Name>
+        <NonContentFormat>false</NonContentFormat>
+        <ContentFormat>true</ContentFormat>
+        <NonContentFormatString>\{0}</NonContentFormatString>
+        <DefaultContentFormatString>\{0}{{{1}}}</DefaultContentFormatString>
+        <SerializedDictionary>z,ż|Z,Ż</SerializedDictionary>
+      </LaTeXFunction>
+      <LaTeXFunction>
+        <Name>'</Name>
+        <NonContentFormat>false</NonContentFormat>
+        <ContentFormat>true</ContentFormat>
+        <NonContentFormatString>\{0}</NonContentFormatString>
+        <DefaultContentFormatString>\{0}{{{1}}}</DefaultContentFormatString>
+        <SerializedDictionary>c,ć|C,Ć|e,é|E,É|n,ń|N,Ń|o,ó|O,Ó|s,ś|S,Ś|z,ź|Z,Ź</SerializedDictionary>
+      </LaTeXFunction>
+      <LaTeXFunction>
+        <Name>l</Name>
+        <NonContentFormat>false</NonContentFormat>
+        <ContentFormat>true</ContentFormat>
+        <NonContentFormatString>\{0}</NonContentFormatString>
+        <DefaultContentFormatString>ł</DefaultContentFormatString>
+        <SerializedDictionary />
+      </LaTeXFunction>
+      <LaTeXFunction>
+        <Name>L</Name>
+        <NonContentFormat>false</NonContentFormat>
+        <ContentFormat>true</ContentFormat>
+        <NonContentFormatString>\{0}</NonContentFormatString>
+        <DefaultContentFormatString>Ł</DefaultContentFormatString>
+        <SerializedDictionary />
+      </LaTeXFunction>
+      <LaTeXFunction>
+        <NonContentFormat>false</NonContentFormat>
+        <ContentFormat>true</ContentFormat>
+        <NonContentFormatString>\{0}</NonContentFormatString>
+        <DefaultContentFormatString>{1}</DefaultContentFormatString>
+        <SerializedDictionary />
+      </LaTeXFunction>
+    </LaTeXFunctions>
+    <DefaultLaTeXFunction>
+      <NonContentFormat>true</NonContentFormat>
+      <ContentFormat>true</ContentFormat>
+      <NonContentFormatString>\{0}</NonContentFormatString>
+      <DefaultContentFormatString>\{0}{{{1}}}</DefaultContentFormatString>
+      <SerializedDictionary />
+    </DefaultLaTeXFunction>
+    <AuthorFieldAnalizers>
+      <AuthorFieldAnalizer>
+        <FieldName>author</FieldName>
+        <FormatObjects>
+          <AuthorFieldFormatObject>
+            <AuthorFieldPart>FirstName</AuthorFieldPart>
+            <NumerOfPositions>-1</NumerOfPositions>
+            <Initials>true</Initials>
+            <SpaceBetweenInitials>true</SpaceBetweenInitials>
+          </AuthorFieldFormatObject>
+          <AuthorFieldFormatObject>
+            <AuthorFieldPart>von</AuthorFieldPart>
+            <NumerOfPositions>-1</NumerOfPositions>
+            <Initials>false</Initials>
+            <SpaceBetweenInitials>true</SpaceBetweenInitials>
+          </AuthorFieldFormatObject>
+          <AuthorFieldFormatObject>
+            <AuthorFieldPart>LastName</AuthorFieldPart>
+            <NumerOfPositions>-1</NumerOfPositions>
+            <Initials>false</Initials>
+            <SpaceBetweenInitials>true</SpaceBetweenInitials>
+          </AuthorFieldFormatObject>
+          <AuthorFieldFormatObject>
+            <AuthorFieldPart>Jr</AuthorFieldPart>
+            <NumerOfPositions>-1</NumerOfPositions>
+            <Initials>false</Initials>
+            <SpaceBetweenInitials>true</SpaceBetweenInitials>
+          </AuthorFieldFormatObject>
+        </FormatObjects>
+        <Separator>,</Separator>
+        <Conjunction>oraz</Conjunction>
+      </AuthorFieldAnalizer>
+      <AuthorFieldAnalizer>
+        <FieldName>editor</FieldName>
+        <FormatObjects>
+          <AuthorFieldFormatObject>
+            <AuthorFieldPart>FirstName</AuthorFieldPart>
+            <NumerOfPositions>-1</NumerOfPositions>
+            <Initials>true</Initials>
+            <SpaceBetweenInitials>true</SpaceBetweenInitials>
+          </AuthorFieldFormatObject>
+          <AuthorFieldFormatObject>
+            <AuthorFieldPart>von</AuthorFieldPart>
+            <NumerOfPositions>-1</NumerOfPositions>
+            <Initials>false</Initials>
+            <SpaceBetweenInitials>true</SpaceBetweenInitials>
+          </AuthorFieldFormatObject>
+          <AuthorFieldFormatObject>
+            <AuthorFieldPart>LastName</AuthorFieldPart>
+            <NumerOfPositions>-1</NumerOfPositions>
+            <Initials>false</Initials>
+            <SpaceBetweenInitials>true</SpaceBetweenInitials>
+          </AuthorFieldFormatObject>
+          <AuthorFieldFormatObject>
+            <AuthorFieldPart>Jr</AuthorFieldPart>
+            <NumerOfPositions>-1</NumerOfPositions>
+            <Initials>false</Initials>
+            <SpaceBetweenInitials>true</SpaceBetweenInitials>
+          </AuthorFieldFormatObject>
+        </FormatObjects>
+        <Separator>,</Separator>
+        <Conjunction>oraz</Conjunction>
+      </AuthorFieldAnalizer>
+    </AuthorFieldAnalizers>
+    <ExecuteMath>SurroundWithMarkStrings</ExecuteMath>
+    <MathSurroundString_Place>$$$$</MathSurroundString_Place>
+    <RemoveBracesInMathMode>false</RemoveBracesInMathMode>
+    <TranslateMathMarker>$$$$</TranslateMathMarker>
+  </BibTeXTranslator>
+</BibTeXtoHTML_Style>

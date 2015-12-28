@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BibTeXtoHTML_Style xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HtmlExporterStyle>
+    <PositionStyles />
+    <SortOrder />
+    <DefaultPositionStyle PositionStyleType="global" UseIt="true">
+      <PositionTypes />
+      <PositionNames />
+      <DefaultFieldStyle UseIt="true">
+        <Tags />
+      </DefaultFieldStyle>
+      <FieldStyles />
+      <FieldSortObjects />
+    </DefaultPositionStyle>
+  </HtmlExporterStyle>
+  <BibTeXTranslator>
+    <LaTeXFunctions>
+      <LaTeXFunction>
+        <Name>textbraceleft</Name>
+        <NonContentFormat>true</NonContentFormat>
+        <ContentFormat>false</ContentFormat>
+        <NonContentFormatString>\{{</NonContentFormatString>
+        <DefaultContentFormatString>\{0}{{{1}}}</DefaultContentFormatString>
+        <SerializedDictionary />
+      </LaTeXFunction>
+      <LaTeXFunction>
+        <Name>textbraceright</Name>
+        <NonContentFormat>true</NonContentFormat>
+        <ContentFormat>false</ContentFormat>
+        <NonContentFormatString>\}}</NonContentFormatString>
+        <DefaultContentFormatString>\{0}{{{1}}}</DefaultContentFormatString>
+        <SerializedDictionary />
+      </LaTeXFunction>
+      <LaTeXFunction>
+        <NonContentFormat>false</NonContentFormat>
+        <ContentFormat>true</ContentFormat>
+        <NonContentFormatString>\{0}</NonContentFormatString>
+        <DefaultContentFormatString>ł</DefaultContentFormatString>
+        <SerializedDictionary />
+      </LaTeXFunction>
+      <LaTeXFunction>
+        <NonContentFormat>false</NonContentFormat>
+        <ContentFormat>true</ContentFormat>
+        <NonContentFormatString>\{0}</NonContentFormatString>
+        <DefaultContentFormatString>Ł</DefaultContentFormatString>
+        <SerializedDictionary />
+      </LaTeXFunction>
+    </LaTeXFunctions>
+    <DefaultLaTeXFunction>
+      <NonContentFormat>true</NonContentFormat>
+      <ContentFormat>true</ContentFormat>
+      <NonContentFormatString>\{0}</NonContentFormatString>
+      <DefaultContentFormatString>\{0}{{{1}}}</DefaultContentFormatString>
+      <SerializedDictionary />
+    </DefaultLaTeXFunction>
+    <AuthorFieldAnalizers />
+    <ExecuteMath>SurroundWithMarkStrings</ExecuteMath>
+    <MathSurroundString_Place>$$$$</MathSurroundString_Place>
+    <RemoveBracesInMathMode>false</RemoveBracesInMathMode>
+    <TranslateMathMarker>$$$$</TranslateMathMarker>
+  </BibTeXTranslator>
+</BibTeXtoHTML_Style>
